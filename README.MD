@@ -1,20 +1,12 @@
-# 明日方舟未成年版 更新至1.2.80
-
-Forked from MengLuwa/ArkNightsForMinor (原作者已注销Github)
-
-尝试继续继承这个项目
-
-~~不愧是YJ，这么多个版本更新之后还是没有改api~~
-
-关于如何提取舟游加密后的libil2cpp.so：参考[BV1Ui4y1V7Pi](https://www.bilibili.com/video/BV1Ui4y1V7Pi)
-
-关于如何使用hook：参考[此文](https://www.52pojie.cn/thread-1007314-1-1.html)
+# 明日方舟未成年版 更新至1.4.01
+# 源自Tao0lu的教程
 
 ## 下载
-百度云
-链接：https://pan.baidu.com/s/1bNGzUJlfHZzqA-ygukSdwg 
-提取码：dazt 
+Ofb
+链接：https://honoka-my.sharepoint.com/:f:/g/personal/msm8940_lily_beer/Eh_6Y1YgwJ9DhxCbYyePwXQBV0en6-P99dz6eWXQykm7vw?e=cfYgp5
 
+同时支持arm64和x86
+没有修改包名
 ## 如何延续这个项目
 ~~如果我死了的话~~
 
@@ -32,6 +24,7 @@ Forked from MengLuwa/ArkNightsForMinor (原作者已注销Github)
 
 * 明日方舟安装包
 
+* JDK
 * MengLuwa/ArkNightsForMinor
 
 * 一个安卓armeabi-v7a模拟器
@@ -57,6 +50,7 @@ Forked from MengLuwa/ArkNightsForMinor (原作者已注销Github)
 - 找到压缩包下 assets/bin/Data/Managed/Metadata/global-metadata.dat ，并复制出来
 - 打开 Il2CppDumper ，选择导出的bin文件和 global-metadata.dat ，并输入刚才记录下了的 libil2cpp.so 的开始地址，等待工具反编译
 - 打开 dump.cs (最好用记事本，vs之内的会卡死的) 按下 ctrl+f 进行搜索
+- 安装JDK以提供反编译时的运行环境
 
 `HGSDK.PingManager.<FirstPing>c__AnonStorey1`
 `<_DoPeriodicPing>m__0`
