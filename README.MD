@@ -1,9 +1,13 @@
-# 明日方舟未成年版 更新至1.5.01
+# 明日方舟未成年版 更新至1.5.20-2
 # 源自Tao0lu的教程
 # 我   在   备   考
 ## 下载
 Ofb
 链接：https://honoka-my.sharepoint.com/:f:/g/personal/msm8940_lily_beer/Eh_6Y1YgwJ9DhxCbYyePwXQBV0en6-P99dz6eWXQykm7vw?e=cfYgp5
+
+Version:1.5.20-2
+Link:https://1drv.ms/u/s!AsCp9eZB30kcglNes-FqwV500vUq?e=Tpcwtj
+根据教程制作
 
 同时支持arm64和x86
 没有修改包名
@@ -120,7 +124,7 @@ void *HGSDK_HGSDK_PingManager__FirstPing_c__AnonStorey1____m__0(void *_this, voi
 - 为了避免于原版冲突，修改以下文件<br>AndroidManifest.xml 第一行 package="com.hypergryph.arknights" 改为自己喜欢的名字(全小写字母)<br>res\values-zh\strings.xml 中 `<string name="app_name">明日方舟</string>`改为自己喜欢的名字
 - 将刚刚生成的 Android-Hooking-master\libs 中的 libhook.so 复制到1-Decompiled APKs 对应的lib文件夹下去(这里要区分armeabi-v7a和x86框架) 或许你在两种模拟器中都重复上面操作一次~~（我全都要~~，将对应的 libhook.so 复制到 lib 文件夹
 
-- 在反编译文件夹中 smali\com 下新建一个文件夹，名为 loadLib ，将刚刚生成的 Android-Hooking-master\Smali Files 中的 smali 文件复制到 smali\comloadLib 中
+- 在反编译文件夹中 smali\com 下新建一个文件夹，名为 loadLib ，将刚刚生成的 Android-Hooking-master\Smali Files 中的 smali 文件复制到 smali\com\loadLib 中
 - 打开反编译文件夹中 smali\com\unity3d\player\UnityPlayerActivity ，ctrl+f 找到 onCreate 并加入一句 `invoke-static {}, Lcom/loadLib/libLoader;->loadLib()V` ，之后保存
 
 ```
