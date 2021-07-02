@@ -34,7 +34,7 @@ Link:https://1drv.ms/u/s!AsCp9eZB30kcglNes-FqwV500vUq?e=Tpcwtj
 
 * 一个安卓x86模拟器
 
-整合包 :https://wwa.lanzous.com/ipJr2lbre0d
+整合包 :https://wwa.lanzoui.com/ipJr2lbre0d
 
 
 ### 准备工作：
