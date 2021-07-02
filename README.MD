@@ -1,11 +1,10 @@
-# 明日方舟未成年版 更新至1.5.20-2
+# 明日方舟未成年版 更新至1.5.40
 # 源自Tao0lu的教程
 ## 下载
 Ofb
 链接：https://honoka-my.sharepoint.com/:f:/g/personal/msm8940_lily_beer/Eh_6Y1YgwJ9DhxCbYyePwXQBV0en6-P99dz6eWXQykm7vw?e=cfYgp5
 
-Version:1.5.20-2
-Link:https://1drv.ms/u/s!AsCp9eZB30kcglNes-FqwV500vUq?e=Tpcwtj
+
 根据教程制作
 
 同时支持arm64和x86
